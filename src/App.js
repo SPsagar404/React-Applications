@@ -1,8 +1,11 @@
+import {Navbar} from "./components/navbar/Navbar";
+import {DataBinding} from "./components/DataBinding";
 
 const App = () => {
   return(
       <>
-          <p className='h4'>Welcome to App Component</p>
+          <Navbar/>
+          <DataBinding/>
       </>
   );
 }
